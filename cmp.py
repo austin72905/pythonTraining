@@ -59,14 +59,15 @@ elif(Str_s3 == "anys"):
     #分析字串長度 接起來密鑰的長度(md5,rsa公,rsa私)
     Ans_Str_List = Str_s1.split(',')
     Ans_Str_List2 = Str_s2.split(',')
-    for i in Ans_Str_List:
-        len_list=str(len(i))
-    for i in Ans_Str_List2:
-        len_list2=str(len(i))
+    
+
+    
     print("-----------字串一---------------")
-    print("key1: "+len_list[0]+"\n"+"key2: "+len_list[1]+"\n"+"key3: "+len_list[2])
+    #print("key1: "+len_list[0]+"\n"+"key2: "+len_list[1]+"\n"+"key3: "+len_list[2])
+    print("key1: "+str(len(Ans_Str_List[0]))+"\n"+"key2: "+str(len(Ans_Str_List[1]))+"\n"+"key3: "+str(len(Ans_Str_List[2])))
     print("-----------字串二---------------")
-    print("key1: "+len_list2[0]+"\n"+"key2: "+len_list2[1]+"\n"+"key3: "+len_list2[2])
+    #print("key1: "+len_list2[0]+"\n"+"key2: "+len_list2[1]+"\n"+"key3: "+len_list2[2])
+    print("key1: "+str(len(Ans_Str_List2[0]))+"\n"+"key2: "+str(len(Ans_Str_List2[1]))+"\n"+"key3: "+str(len(Ans_Str_List2[2])))
 
 
 # text ="\u4f60\u662f\u767d\u7661"
